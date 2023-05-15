@@ -1,27 +1,27 @@
 {
-    "name": "cgdsoftware/multitenancy",
+    "name": "laravel-liberu/multitenancy",
     "description": "User actions logger dependency for Laravel Enso",
     "keywords": [
         "laravel",
-        "cgdsoftware",
+        "laravel-liberu",
         "multitenancy",
         "middleware"
     ],
-    "homepage": "https://github.com/cgdsoftware/multitenancy",
+    "homepage": "https://github.com/laravel-liberu/multitenancy",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://cgdsoftware.com",
+            "homepage": "https://laravel-liberu.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "cgdsoftware/companies": "^3.0",
-        "cgdsoftware/core": "^5.0|^6.0",
-        "cgdsoftware/enums": "^2.0"
+        "laravel-liberu/companies": "^3.0",
+        "laravel-liberu/core": "^5.0|^6.0",
+        "laravel-liberu/enums": "^2.0"
     },
     "autoload": {
         "psr-4": {
