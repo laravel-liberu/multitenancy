@@ -6,8 +6,8 @@ use LaravelEnso\Enums\Services\Enum;
 
 class Connections extends Enum
 {
-    public const System = 'system';
-    public const Tenant = 'tenant';
-    public const Mixed = 'mixed';
-    public const Testing = 'sqlite';
+    final public const System = 'system';
+    final public const Tenant = 'tenant';
+    final public const Mixed = 'mixed';
+    final public const Testing = 'sqlite';
 }

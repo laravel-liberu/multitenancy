@@ -16,12 +16,8 @@ class ClearStorage implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels, ConnectionStoragePath;
 
-    private $tenant;
-
-    public function __construct(Company $tenant)
+    public function __construct(private readonly Company $tenant)
     {
-        $this->tenant = $tenant;
-
         $this->queue = 'light';
     }
 

@@ -16,12 +16,8 @@ class DropTables implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
-    private $tenant;
-
-    public function __construct(Company $tenant)
+    public function __construct(private readonly Company $tenant)
     {
-        $this->tenant = $tenant;
-
         $this->queue = 'light';
     }
 
