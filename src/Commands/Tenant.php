@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Multitenancy\Commands;
+namespace LaravelLiberu\Multitenancy\Commands;
 
 use Illuminate\Console\Command;
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\Multitenancy\Traits\ConnectionStoragePath;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\Multitenancy\Traits\ConnectionStoragePath;
 
 abstract class Tenant extends Command
 {

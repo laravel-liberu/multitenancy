@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Multitenancy\Traits;
+namespace LaravelLiberu\Multitenancy\Traits;
 
-use LaravelEnso\Multitenancy\Services\Tenant;
+use LaravelLiberu\Multitenancy\Services\Tenant;
 
 trait ConnectionStoragePath
 {

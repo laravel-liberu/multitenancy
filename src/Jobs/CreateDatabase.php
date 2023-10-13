@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Multitenancy\Jobs;
+namespace LaravelLiberu\Multitenancy\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -8,9 +8,9 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\Multitenancy\Services\Tenant;
-use LaravelEnso\Multitenancy\Traits\TenantResolver;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\Multitenancy\Services\Tenant;
+use LaravelLiberu\Multitenancy\Traits\TenantResolver;
 
 class CreateDatabase implements ShouldQueue
 {

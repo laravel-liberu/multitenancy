@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Multitenancy;
+namespace LaravelLiberu\Multitenancy;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Multitenancy\Commands\ClearStorage;
-use LaravelEnso\Multitenancy\Commands\CreateDatabase;
-use LaravelEnso\Multitenancy\Commands\DropDatabase;
-use LaravelEnso\Multitenancy\Commands\DropTables;
-use LaravelEnso\Multitenancy\Commands\Migrate;
-use LaravelEnso\Multitenancy\Http\Middleware\Multitenancy;
+use LaravelLiberu\Multitenancy\Commands\ClearStorage;
+use LaravelLiberu\Multitenancy\Commands\CreateDatabase;
+use LaravelLiberu\Multitenancy\Commands\DropDatabase;
+use LaravelLiberu\Multitenancy\Commands\DropTables;
+use LaravelLiberu\Multitenancy\Commands\Migrate;
+use LaravelLiberu\Multitenancy\Http\Middleware\Multitenancy;
 
 class AppServiceProvider extends ServiceProvider
 {

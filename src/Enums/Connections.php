@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Multitenancy\Enums;
+namespace LaravelLiberu\Multitenancy\Enums;
 
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Enums\Services\Enum;
 
 class Connections extends Enum
 {

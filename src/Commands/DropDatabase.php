@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Multitenancy\Commands;
+namespace LaravelLiberu\Multitenancy\Commands;
 
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\Multitenancy\Jobs\DropDatabase as Job;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\Multitenancy\Jobs\DropDatabase as Job;
 
 class DropDatabase extends Tenant
 {

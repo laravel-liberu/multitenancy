@@ -25,13 +25,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Multitenancy\\": "src/"
+            "LaravelLiberu\\Multitenancy\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Multitenancy\\AppServiceProvider"
+                "LaravelLiberu\\Multitenancy\\AppServiceProvider"
             ],
             "aliases": {}
         }

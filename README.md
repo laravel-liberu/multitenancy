@@ -6,11 +6,11 @@
 [![Total Downloads](https://poser.pugx.org/laravel-enso/multitenancy/downloads)](https://packagist.org/packages/laravel-enso/multitenancy)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/multitenancy/version)](https://packagist.org/packages/laravel-enso/multitenancy)
 
-Multitenancy dependency for [Laravel Liberu](https://laravel-enso.com).
+Multitenancy dependency for [Laravel Liberu](https://liberu.co.uk).
 
 ### Installation, Configuration & Usage
 
-Be sure to check out the full documentation for this package available at [docs.laravel-enso.com](https://docs.laravel-enso.com/backend/multitenancy.html)
+Be sure to check out the full documentation for this package available at [docs.liberu.co.uk](https://docs.liberu.co.uk/backend/multitenancy.html)
 
 ### Contributions
 

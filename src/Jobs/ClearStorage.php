@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Multitenancy\Jobs;
+namespace LaravelLiberu\Multitenancy\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -8,9 +8,9 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Storage;
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\Multitenancy\Services\Tenant;
-use LaravelEnso\Multitenancy\Traits\ConnectionStoragePath;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\Multitenancy\Services\Tenant;
+use LaravelLiberu\Multitenancy\Traits\ConnectionStoragePath;
 
 class ClearStorage implements ShouldQueue
 {

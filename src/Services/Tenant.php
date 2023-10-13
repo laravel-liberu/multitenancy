@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Multitenancy\Services;
+namespace LaravelLiberu\Multitenancy\Services;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\Multitenancy\Enums\Connections;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\Multitenancy\Enums\Connections;
 
 class Tenant
 {
