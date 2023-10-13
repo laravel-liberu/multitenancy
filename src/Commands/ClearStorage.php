@@ -7,7 +7,7 @@ use LaravelLiberu\Multitenancy\Jobs\ClearStorage as Job;
 
 class ClearStorage extends Tenant
 {
-    protected $signature = 'enso:tenant:clear-storage {--all=false} {--tenantId}';
+    protected $signature = 'liberu:tenant:clear-storage {--all=false} {--tenantId}';
 
     protected $description = 'Clears tenant storage';
 

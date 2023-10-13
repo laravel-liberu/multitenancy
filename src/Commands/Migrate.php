@@ -8,7 +8,7 @@ use LaravelLiberu\Multitenancy\Jobs\Migrate as Job;
 
 class Migrate extends Command
 {
-    protected $signature = 'enso:tenant:migrate {--all=false} {--tenantId}';
+    protected $signature = 'liberu:tenant:migrate {--all=false} {--tenantId}';
 
     protected $description = 'Performs tenant(s) migrations';
 

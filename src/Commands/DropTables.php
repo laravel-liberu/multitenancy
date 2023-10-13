@@ -7,7 +7,7 @@ use LaravelLiberu\Multitenancy\Jobs\DropTables as Job;
 
 class DropTables extends Tenant
 {
-    protected $signature = 'enso:tenant:drop-tables {--all=false} {--tenantId}';
+    protected $signature = 'liberu:tenant:drop-tables {--all=false} {--tenantId}';
 
     protected $description = 'Drops all tables from tenant database(s)';
 

@@ -7,7 +7,7 @@ use LaravelLiberu\Multitenancy\Jobs\CreateDatabase as Job;
 
 class CreateDatabase extends Tenant
 {
-    protected $signature = 'enso:tenant:create-database {--all=false} {--tenantId}';
+    protected $signature = 'liberu:tenant:create-database {--all=false} {--tenantId}';
 
     protected $description = 'Creates tenant database';
 

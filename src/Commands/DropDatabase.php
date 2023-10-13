@@ -7,7 +7,7 @@ use LaravelLiberu\Multitenancy\Jobs\DropDatabase as Job;
 
 class DropDatabase extends Tenant
 {
-    protected $signature = 'enso:tenant:drop-database {--all=false} {--tenantId}';
+    protected $signature = 'liberu:tenant:drop-database {--all=false} {--tenantId}';
 
     protected $description = 'Drops tenant database(s)';
 
